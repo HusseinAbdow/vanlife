@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.registration-container {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.registration-title {
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+.btn-register {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+}
+
+.btn-register:hover {
+    background-color: #0097a7;
+}
+
+.form-control {
+    background-color: #333;
+    border: none;
+    color: white; /* Ensure text color is white */
+}
+
+.form-control:focus {
+    background-color: #444; /* Slightly lighter background on focus */
+    box-shadow: none;
+    color: white; /* Keep text white when focused */
+}
+
+.form-control::placeholder {
+    color: white; /* Placeholder text color */
+}
+
+.link a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}

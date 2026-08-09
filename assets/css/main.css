@@ -1,0 +1,24 @@
+/* Only essential styles */
+.van-img {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Simple hover effects using CSS only */
+.bg-secondary.bg-opacity-25:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: all 0.2s ease;
+}

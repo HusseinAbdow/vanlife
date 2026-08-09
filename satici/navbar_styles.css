@@ -1,0 +1,37 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-item:hover {
+    color: #f8f9fa !important;
+    transform: translateY(-1px);
+}
+
+.dropdown-menu .dropdown-item {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.dropdown-item i {
+    width: 1.3rem;
+}
+
+/* Enable smooth scrolling for in-page anchors */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Offset anchor targets so navbar doesn't cover them */
+:target {
+    scroll-margin-top: 80px; /* Adjust based on your navbar height */
+}
+
+/* Ensure the Aktif Kiralarım link fits properly in the navbar */
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}

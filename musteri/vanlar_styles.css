@@ -1,0 +1,11 @@
+/* Add hover effect for the dropdown items */
+.dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect - similar to the button hover effect */
+.dropdown-menu .dropdown-item:hover {
+    background-color: white; /* Lights up white */
+    color: black;            /* Text turns black */
+    border-radius: 0.375rem; /* Optional: Adds rounded corners */
+}

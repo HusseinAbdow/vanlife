@@ -1,0 +1,39 @@
+/* Enhanced image styling for the carousel */
+.van-img {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Carousel button adjustments */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+
+/* Animation on scroll */
+.stat-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.stat-card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+
+
+
+
+
