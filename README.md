@@ -6,9 +6,11 @@
 
 Rent vans, manage leases, and share your journey — all in one place.
 
-![PHP](https://img.shields.io/badge/PHP-8.0-777BB4?logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-MariaDB-4479A1?logo=mysql&logoColor=white)
-![XAMPP](https://img.shields.io/badge/XAMPP-Local-FB7A24?logo=xampp&logoColor=white)
+[![PHP](https://img.shields.io/badge/PHP-8.0-777BB4?logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-MariaDB-4479A1?logo=mysql&logoColor=white)](https://mariadb.org/)
+[![XAMPP](https://img.shields.io/badge/XAMPP-Local-FB7A24?logo=xampp&logoColor=white)](https://www.apachefriends.org/)
+
+[Report Bug](../../issues) · [Releases](../../releases) · [Clone Repo](#️-installation--setup)
 
 </div>
 
@@ -24,9 +26,19 @@ Rent vans, manage leases, and share your journey — all in one place.
 
 ### 🏠 Landing Page Walkthrough
 
-[![Landing Page Video](Read_images_%26_videos/landingPage.png)](Read_images_%26_videos/landingpage_vid.mp4)
+https://github.com/HusseinAbdow/vanlife/releases/download/v1.0/landingpage_vid.mp4
 
-> ▶️ **Click the image above to watch the demo video** *(GitHub doesn't autoplay local `.mp4` files — for best results, drag & drop `landingpage_vid.mp4` into any GitHub issue and paste the generated `user-attachments` URL here)*
+> ▶️ Click the player above to watch — or [download the video here](https://github.com/HusseinAbdow/vanlife/releases/download/v1.0/landingpage_vid.mp4).
+
+---
+
+## ✨ Features
+
+| Role | Capabilities |
+|---|---|
+| 🧑 **Customer** | Browse & search vans, view vehicle details, start leases, track active rentals, request support |
+| 🚐 **Vendor** | Manage own van listings, review incoming rental requests, track active leases, message customers |
+| 🛡️ **Admin** | Full fleet oversight, user & vendor management, platform-wide dashboard |
 
 ---
 
@@ -64,11 +76,11 @@ Rent vans, manage leases, and share your journey — all in one place.
 
 ### 1️⃣ Clone the Project
 
-Clone or copy the project into XAMPP's `htdocs` folder:
+Clone the repo into XAMPP's `htdocs` folder:
 
 ```bash
 cd C:\xampp\htdocs
-git clone <your-repo-url> vanlife
+git clone https://github.com/HusseinAbdow/vanlife.git
 ```
 
 ### 2️⃣ Import the Database
@@ -76,7 +88,7 @@ git clone <your-repo-url> vanlife
 1. Open **http://localhost/phpmyadmin**
 2. Click **"Yeni" / "New"** in the left menu and create a database named **`vanlife_db`**
 3. Select the new database, go to the **"İçe Aktar" / "Import"** tab
-4. Choose **`database/vanlife_db.sql`** and click **"Git" / "Go"**
+4. Choose **`database/vanlife_db.sql`** from the project folder and click **"Git" / "Go"**
 
 ### 3️⃣ Database Connection
 
@@ -96,6 +108,8 @@ $username = 'root';
 $password = '';
 ```
 
+> These are XAMPP's default credentials — no changes needed on a fresh install.
+
 ### 4️⃣ Run the Website
 
 Start **Apache** and **MySQL** from the XAMPP control panel, then open:
@@ -108,8 +122,36 @@ http://localhost/vanlife/login.php
 
 ---
 
+## 🗂️ Project Structure
+
+```
+vanlife/
+├── admin/               # Admin dashboard & fleet oversight
+├── musteri/             # Customer area (browsing, leases, reviews)
+├── satici/              # Vendor area (listings, requests, orders)
+├── configs/
+│   ├── database.php     # PDO connection settings
+│   └── vanlife_db.sql   # Full database schema + seed data
+├── assets/              # Images & static assets
+├── uploads/             # User-uploaded media
+├── Read_images_&_videos # README screenshots & demo video
+├── login.php            # Login page
+└── registration.php     # Registration page
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** PHP 8 (PDO)
+- **Database:** MySQL / MariaDB
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Server:** Apache via XAMPP
+
+---
+
 <div align="center">
 
-Made with ❤️ for van lovers
+Made with ❤️ by [HusseinAbdow](https://github.com/HusseinAbdow) for van lovers
 
 </div>
