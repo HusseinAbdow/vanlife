@@ -1,0 +1,7 @@
+# User uploads (private user data)
+uploads/
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+*.log
