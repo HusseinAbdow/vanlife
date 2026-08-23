@@ -26,9 +26,9 @@ Rent vans, manage leases, and share your journey — all in one place.
 
 ### 🏠 Landing Page Walkthrough
 
-https://github.com/HusseinAbdow/vanlife/releases/download/v1.0/landingpage_vid.mp4
+https://github.com/user-attachments/assets/a8e0a9af-3c70-41b2-8aa0-86c69bf8cac3
 
-> ▶️ Click the player above to watch — or [download the video here](https://github.com/HusseinAbdow/vanlife/releases/download/v1.0/landingpage_vid.mp4).
+> ▶️ Click the player above to watch the walkthrough — or [download the full-quality video](https://github.com/HusseinAbdow/vanlife/releases/download/v1.0/landingpage_vid.mp4).
 
 ---
 
